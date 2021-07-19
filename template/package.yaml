@@ -1,0 +1,12 @@
+name: template
+version: 0.1.0
+description: A Haskell project template for use with Stack.
+dependencies:
+  - base
+library:
+  source-dirs: ./src/lib
+executable:
+  source-dirs: ./src/exe
+  main: Main
+  dependencies:
+    - template
